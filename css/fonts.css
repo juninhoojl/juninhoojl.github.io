@@ -1,0 +1,15 @@
+/*Fonte Palanquin*/ 
+@font-face {
+    font-family: 'palanquin';
+    src: url('fonts/palanquin-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Fonte Palanquin Negrito*/
+@font-face {
+    font-family: 'palanquin';
+    src: url('fonts/palanquin-bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}

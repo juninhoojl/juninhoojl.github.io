@@ -1,0 +1,247 @@
+body {
+  background-color: #3F4553;
+  font: 100% palanquin;
+  height: 100%;
+  padding: 0.5em;
+  margin:;
+}
+.bloco-perfil{
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#capa {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#capa-itens {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.texto{
+    color: #3F4553;
+}
+
+.titulo {
+    color: #3F4553;
+    font-weight: bold;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    background: #AC9DE7;
+    /*background-color: white;*/
+    z-index: -1;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #3F4553;
+
+}
+
+.feito-por{
+
+    font-weight: normal;
+  font-size: 1.1em;
+  color: #3F4553;
+}
+
+.botao, .botao:hover{
+
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  border:0;
+  box-shadow: none;
+  color: #FAFAFA;
+  font-size: 1.4em;
+  z-index: 3;
+  background-color: #3F4553; 
+
+}
+
+.botao:hover {
+     background-color: #181A1F;
+     cursor:pointer;  
+}
+
+
+#entrada{
+
+  z-index: 2;
+  border-radius: 10px 0 0 10px;
+  color: #3F4553;
+  font-size: 1.5em;
+  border:none;
+  box-shadow: none;
+  text-transform: uppercase;
+
+}
+
+#entrada:focus{
+
+  border:none;
+  box-shadow: none;
+
+}
+
+
+.form-box{
+
+  margin: 1em 0 1em 0;
+  box-shadow: 0px 0px 5px #3F4553;
+  border-radius: 10px;
+
+
+}
+
+#caixa{
+  margin: 0;
+  padding: 0;
+}
+
+
+.card{
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+
+  margin:5px;
+  box-shadow: 0px 0px 5px #3F4553;
+  border-radius: 10px;
+}
+
+.card > .card-header{
+  background-color: #3F4553;
+  border-radius: 10px 10px 0 0;
+  color: #FAFAFA;
+  font-size: 1.5em;
+  margin:0;
+}
+
+.card > .card-body{
+
+  background-color: #FAFAFA;
+  color: #3F4553;
+  font-size: 1.2em;
+  margin:0;
+
+}
+
+.card > .card-footer{
+
+  background-color: #FAFAFA;
+  color: #3F4553;
+  border-radius: 0 0 10px 10px;
+  font-size: 1em;
+
+  margin:0;
+}
+
+.foto{
+  padding:2px;
+  border:5px solid #3F4553;
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  box-shadow: 0px 0px 5px #3F4553;
+
+}
+
+
+.perfil{
+  padding: 10px;
+}
+
+.outras-info{
+
+  margin-top: auto;
+margin-bottom: auto;
+}
+
+.texto-perfil{
+      color: #3F4553;
+      font-size: 1.2em;
+
+}
+
+.nome-completo{
+  font-weight: bold;
+  font-size: 2em;
+  color: #3F4553;
+}
+
+.nome-usuario{
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #3F4553;
+}
+
+
+a {
+    color: #3F4553;
+    text-decoration: none;
+}
+
+a:hover {
+     color:#181A1F; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.icone{
+
+  color: #AC9DE7;
+}
+
+.icone:hover{
+  color: #BFB2FF;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        margin:0;
+        padding: 0;
+        column-gap: 0.8em;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+      margin:0;
+      padding: 0;
+      column-gap: 0.8em;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+      margin:0;
+      padding: 0;
+      column-gap: 0.8em;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+      margin:0;
+      column-gap: 0.8em;
+      padding: 0;
+        column-count: 3;
+    }
+}
