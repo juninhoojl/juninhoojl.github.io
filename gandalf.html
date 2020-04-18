@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gandalf</title>
+	<body style="background-color:black;">
+	<meta charset="UTF-8">
+	<script>
+        alert("Cuidado, pode conter cenas de Gandalf balançando a cabeça!");
+    </script>
+    <style>
+		video {
+		    position:absolute;
+		    left:50%;
+		    top:50%;
+	    	width: 100%    !important;
+		  	height: auto   !important;
+		    -webkit-transform:translate(-50%,-50%);
+		    transform:translate(-50%,-50%);
+		}
+    </style>
+</head>
+<body>
+
+	<audio autoplay loop>
+	  <source src="gandalf.mp3" type="audio/mpeg">
+	</audio>
+	<video autoplay loop>
+	  <source src="gandalf.mp4" type="video/mp4">
+	  Não suporta o video.
+	</video>
+
+</body>
+</html>
